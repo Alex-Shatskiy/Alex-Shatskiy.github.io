@@ -1,0 +1,78 @@
+<!DOCKTYPE html>
+<html>
+  <head>
+    <title>Technical Blog</title>
+    <link rel="stylesheet" href="styles/tech-blog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Merienda&display=swap" rel="stylesheet">
+  </head>
+  <body>
+        <div class="nav-bar">
+           <a href='index.html'><h4>Home</h4></a>
+        </div>
+        <div class="intro">
+            <h1>What are the differences between relative, absolute, and fixed positioning?</h1>
+            <h3 class="">Introduction</h3>
+            <p class="">There are 3 different types of positioning going to be pointed out in this blog, however in total there are 5 different position styles you can use. The main 3  that are going to be explained are relative, absolute and fixed. All these have different impacts on your website. Good chance you will use at least one if not all  while building a website. They are great tools to use to override the basic document flow you’d otherwise get, and give it more of a unique look.</p>
+            <div class="list">
+                <p>The 5 diffrent positioning elements</p>
+                <ul>
+                    <ol>Static</ol>
+                    <ol>Relative</ol>
+                    <ol>Fixed</ol>
+                    <ol>Absalute</ol>
+                    <ol>Sticky</ol>
+                 </ul>
+             </div>  
+        </div>
+
+        <div class="relative">
+            <h3>What is relative positioning?</h3>
+            <p>Relative will be the first one we’ll talk about. When setting a position on your website to relative, you will notice that it wont do anything without assigning it a  position(top, bottom, right, left). For instance if you add a photo with an additional position such as left:300px, the photo will move 300px to the left from its default position, as you will  be able to see in the example below.</p>
+                <div>
+                    <img class="" src="test/left.PNG" alt="example 1">
+                    <img class="" src="test/left-web.PNG" alt="example 2">
+                </div>
+                <div>
+                    <p>When the element is moved the position of other elements won’t be affected. It will overlay other elements, as shown below.</p>
+                </div>
+                <div>
+                    <img class="" src="test/bottom-top.PNG" alt="example 3">
+                    <img class="S" src="test/bottom-top-web.PNG" alt="example 4">
+                </div>
+        </div>
+
+        <div class="absolute">
+            <h3>What is absolute positioning?</h3>
+            <div>
+                <div>
+                   <p>This element type will let you place your element exactly where you want it. Using an absolute element will break the flow of the page and let you position anywhere you want on the document, as you can see the fox is positioned outside the box and ignoring flow of the document.</p>
+                </div>  
+                <div>
+                    <img src="test/absalute-html.PNG" alt="example 5">
+                    <img src="test/absalute-webPNG.PNG" alt="example6">
+                </div>
+            </div>
+            <div>
+                <div >
+                    <p>However, while using absolute if it is in a box that has been set to relative, setting an element to absolute will contain it in such area, as you see below, think of it as the “box” as a parent, and anything inside it is being told what it can and can not do, like the image not being able to leave the balck square.
+                    </p>
+                </div>
+                <div>
+                    <img src="test/absalute-w-relative-html.PNG" alt="example 7">
+                    <img src="test/absalute-w-relative-web.PNG" alt="example 8">
+                </div>
+            </div>
+        </div>
+
+        <div class="fixed">
+            <h3>What is fixed positioning?</h3>
+            <div>
+                <p>Fixed position would be similar to relative position where its taken out of the normal flow of the document however when it comes to resizing the web browser, instead of it resizing relative to the size of the window it will forever be fixed in that position that you have assigned it to. </p>
+                <p>For instance if you have assigned a photo 200px up and 200px to the left, regardless of what's around it will be at set position, another example would be if the page has a logo at the top and it’s always at the top even if the pages is being scrolled down said logo would be fixed in that position no matter where you are on the page.</p>
+                <p>For a great example i've attached a great video</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LLamGd1J9iY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+  </body>
+
+</html>
