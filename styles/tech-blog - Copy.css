@@ -1,0 +1,54 @@
+
+body{
+    background-image: url("../../Alex-Shatskiy.github.io/images/milky-way-1427210.jpg");
+    font-size:18px;
+    color:white;
+    font-family: 'Archivo Black', sans-serif;
+
+}
+
+h1{
+    font-size: 30px;
+}
+img{
+    width:300px;
+    height: 300px;
+}
+.list{
+    position: absolute;
+    left:40%;
+    text-align: left;
+}
+.intro{
+    padding-bottom: 15%;
+
+}
+#five-types{
+    width:100px;
+    height: 100px;
+}
+
+.relative, .absolute, .intro, .fixed{
+    position: relative;
+    left:150px;
+    text-align:center;
+    padding-bottom:25%;
+    width:80%;
+    height:20%;
+    background-color: black;
+}
+.relative{
+    padding-bottom: 40%;
+}
+#padding{
+    padding-bottom: 20%;
+}
+
+.absolute{
+    padding-top:35%;
+}
+.fixed{
+    text-align:center;
+    padding-top:25%;
+
+}

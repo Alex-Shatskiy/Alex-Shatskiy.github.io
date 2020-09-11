@@ -1,0 +1,36 @@
+body{
+    background-image: url("../../Alex-Shatskiy.github.io/images/milky-way-1427210.jpg");
+    font-size:18px;
+    color:rgb(199, 199, 199);
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+
+}
+
+.p1, .p2, .p3, .p4, .p5{
+    background-color: rgba(0, 0, 0, 0.616);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    width: 80%;
+    position: relative;
+    left:150px;
+    border-style: solid;
+    border-color: white;
+}
+.nav-bar, h4{
+    width:60px;
+    height:30px;
+    text-align: left;
+    position: fixed;
+    top:0;
+    left:40;
+    
+}
+h4{
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+}
+h4:hover{
+    background-color: rgba(255, 255, 255, 0.39);
+}
