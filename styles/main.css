@@ -61,8 +61,38 @@ body{
 .row1{
     padding-right: 100px;
 }
-#comingsoon{
-    font-size: 30;
-}
+table{
+    overflow-y:scroll;
+    height:500px;
+    width:600px;
+    display:block;
+ }
+ 
+ .center{
+     position: relative;
+     text-align: center;
+     left: 5px;
+     width:500px;
+     border-style: solid;
+ }
+
+ ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 
 
